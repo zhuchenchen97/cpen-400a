@@ -1,0 +1,1 @@
+Marks: 14. Comments: Not updating the qty in the cart. 

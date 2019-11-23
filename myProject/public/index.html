@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>assignment-4</title>
+    <link rel="stylesheet" href="./css/1.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <img id="logo" src="./images/logo.jpg" />
+        <img id="banner" src="./images/banner.jpg" />
+    </div>
+    <div id="content">
+<!--         <ul id="menu">
+            <li class="menuItem">All Items</li>
+            <li class="menuItem">Books</li>
+            <li class="menuItem">Clothing</li>
+            <li class="menuItem">Tech</li>
+            <li class="menuItem">Gifts</li>
+            <li class="menuItem">Stationary</li>
+            <li class="menuItem">Supplies</li>
+        </ul> -->
+        <div id="menuView">
+            
+        </div>
+        <div id="productView"></div>
+        <button id="btn-show-cart" onclick="showCart(store.cart)">Show Cart</button>
+    </div>
+    <div id="footer">
+        <div id="f">
+            <p>Contact information:</p>
+            <p>Chenchen Zhu </p>
+            <p>Shen Yue </p>
+        </div>
+    </div>
+    <div id="modal">
+        <div id="modal-content"></div>
+        <button id="btn-hide-cart" onclick="hideCart(store.cart)">Close</button>
+    </div>
+    <script src="./js/app.js" type="text/javascript"></script>
+</body>
+
+</html>
